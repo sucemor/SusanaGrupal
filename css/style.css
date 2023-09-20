@@ -1,0 +1,43 @@
+:root {
+    --morado: #6C5B7B;
+    --blanco: #FFFFFF;
+    --negro: #000000;
+    --rosa-palido: #FFD3A5;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: var(--morado);
+    background-color: var(--blanco);
+}
+
+nav {
+    background-color: var(--morado);
+}
+
+nav h1, nav a {
+    color: var(--blanco);
+}
+
+header {
+    background-color: var(--morado);
+    color: var(--blanco);
+    padding: 100px 0;
+    text-align: center;
+}
+
+h3 {
+    border-bottom: 2px solid var(--rosa-palido);
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: var(--negro);
+    color: var(--blanco);
+    text-align: center;
+    padding: 20px 0;
+}
+
+a:hover {
+    color: var(--rosa-palido);
+}
