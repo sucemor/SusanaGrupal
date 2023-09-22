@@ -124,10 +124,12 @@ a:hover {
     padding: 30px;
 }
 
-#sillas a{
+/*
+    En diseño cuando se selecciona una seccion secundaria, es decir, si se clicka en mesa cambia de
+*/
+#seleccionado a{
     background-color: #fcfcd7;
     color: #77A290;
     padding: 10px;
     font-weight: bold;
 }
-
