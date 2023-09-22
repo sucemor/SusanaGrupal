@@ -1,36 +1,39 @@
-:root {
-    --morado: #6C5B7B;
-    --blanco: #FFFFFF;
-    --negro: #000000;
-    --rosa-palido: #FFD3A5;
-}
+
 
 body {
-    font-family: 'Arial', sans-serif;
-    color: var(--morado);
-    background-color: var(--blanco);
+    font-family: 'Quicksand', sans-serif;
+    color: #77A290;
+    font-size: 20px;
 }
 
-nav {
-    background-color: var(--morado);
-}
+
+    .navbar{
+        background-color: #77A290;
+        font-size: 22px;
+        color: #fcfcd7;
+        padding: 0 70;
+    }
+
+    #imgLogo{
+        width: 120px;
+    }
 
 nav h1, nav a {
-    color: var(--blanco);
+    color:#fcfcd7;
 }
 
 header {
-    background-color: var(--morado);
-    color: var(--blanco);
+    background-image: url(../img/bg1.PNG);
+    color: #fcfcd7;
     padding: 100px 0;
     text-align: center;
 }
 
-h3 {
-    border-bottom: 2px solid var(--rosa-palido);
-    padding-bottom: 10px;
-}
 
+h2{
+    font-weight: bold;
+    padding-top: 40px;
+}
 footer {
     margin-top: 20px;
     background-color: var(--negro);
@@ -39,8 +42,14 @@ footer {
     padding: 20px 0;
 }
 
+.nav2{
+    color: white;
+}
+
+
 a:hover {
-    color: var(--rosa-palido);
+    color: white;
+    font-weight: bold;
 }
 
 .lightbox {
@@ -61,6 +70,64 @@ a:hover {
     transform: translate(-50%, -50%);
     max-width: 90%;
     max-height: 90%;
-    border: 4px solid var(--blanco);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+
+/*PAGINA DE DISEÑO*/
+.container-navLat{
+    display: flex;
+    
+}
+.nav-lat{
+    background-color: #77A290;
+    color: white;
+    padding: 20px 90px;
+    margin: 0;
+}
+
+.nav-lat ul{
+    list-style: none;
+    padding: 0;
+}
+
+.nav-lat li{
+    padding: 20px;
+    font-size: 25px;
+    /*font-weight: bold;*/
+}
+
+.nav-lat a{
+    background-color:#77A290;
+    color: white;
+    padding: 10px;
+}
+
+.nav-lat a:hover{
+    font-weight: bold;
+    text-decoration: none;
+    background-color: white;
+    color: #77A290;
+    padding: 10px;
+    margin: 0;
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+
+.productos img{
+    width: 250px;
+    padding: 30px;
+}
+
+#sillas a{
+    background-color: #fcfcd7;
+    color: #77A290;
+    padding: 10px;
+    font-weight: bold;
+}
+

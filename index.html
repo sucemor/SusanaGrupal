@@ -5,22 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABG Designs</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Barra de Navegación -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">ABG Designs</a>
+    <nav class="navbar navbar-expand-lg ">
+        <img src="img/logo.PNG" alt="" id="imgLogo">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#about">Acerca de nosotros</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#gallery">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="diseno.html">Diseño</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#testimonials">Testimonios</a>
@@ -35,7 +45,7 @@
 
     <!-- Encabezado -->
     <header>
-        <div class="container">
+        <div class="container nav2">
             <h2>Transforma tu espacio</h2>
             <p>Diseños modernos y personalizados para cada hogar.</p>
         </div>
@@ -44,7 +54,7 @@
     <!-- Acerca de nosotros -->
     <section id="about">
         <div class="container">
-            <h3>Acerca de nosotros</h3>
+            <h2>Acerca de nosotros</h2>
             <p>
                 En <strong>ABG Designs</strong>, creemos que un espacio bien diseñado no solo es estéticamente agradable, sino que también tiene el poder de mejorar la calidad de vida. Durante más de una década, hemos ayudado a nuestros clientes a redescubrir la belleza y funcionalidad de sus hogares y oficinas.
             </p>
@@ -60,7 +70,7 @@
     <!-- Galería -->
     <section id="gallery">
         <div class="container">
-            <h3>Galería</h3>
+            <h2>Galería</h2>
             <div class="row">
                 <!-- Añadir imágenes de diseños de interiores aquí -->
             </div>
@@ -69,12 +79,12 @@
 <!-- Testimonios -->
 <section id="testimonials">
     <div class="container">
-        <h3>Testimonios</h3>
+        <h2>Testimonios</h2>
         <div class="row">
             <!-- Testimonio 1: Juan Pérez -->
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y" class="card-img-top" alt="Foto de Juan Pérez">
+                    <img src="img/pexels-andrea-piacquadio-3973335.jpg" class="card-img-top" alt="Foto de Juan Pérez">
                     <div class="card-body">
                         <h5 class="card-title">Juan Pérez</h5>
                         <p class="card-text">"Desde que contraté a 'ABG Designs', mi hogar ha sido transformado completamente. Ahora siento que realmente refleja mi estilo y personalidad. ¡Gracias!"</p>
@@ -85,7 +95,7 @@
             <!-- Testimonio 2: María García -->
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="https://www.gravatar.com/avatar/11111111111111111111111111111111?d=mp&f=y" class="card-img-top" alt="Foto de María García">
+                    <img src="img/pexels-christina-morillo-1181689.jpg" class="card-img-top" alt="Foto de María García">
                     <div class="card-body">
                         <h5 class="card-title">María García</h5>
                         <p class="card-text">"El equipo de 'ABG Designs' ha sido maravilloso desde el principio hasta el final. Me ayudaron a rediseñar mi oficina y ahora es un espacio donde realmente me siento productiva."</p>
@@ -96,7 +106,7 @@
             <!-- Testimonio 3: Luis Rodríguez -->
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="https://www.gravatar.com/avatar/22222222222222222222222222222222?d=mp&f=y" class="card-img-top" alt="Foto de Luis Rodríguez">
+                    <img src="img/pexels-pixabay-220453.jpg" class="card-img-top" alt="Foto de Luis Rodríguez">
                     <div class="card-body">
                         <h5 class="card-title">Luis Rodríguez</h5>
                         <p class="card-text">"Estoy asombrado con los resultados. Mi sala de estar parece sacada de una revista de diseño. No puedo esperar para contratarlos nuevamente para mi próximo proyecto."</p>
@@ -112,7 +122,7 @@
     <!-- Contacto -->
     <section id="contact">
         <div class="container">
-            <h3>Contacto</h3>
+            <h2>Contacto</h2>
             <p>Información de contacto y formulario para consultas.</p>
             <form>
                 <div class="form-group">
