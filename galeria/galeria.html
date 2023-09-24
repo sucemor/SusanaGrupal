@@ -25,10 +25,10 @@
                     <a class="nav-link" href="../index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../galeria/galeria.html">Galería</a>
+                    <a class="nav-link" href="galeria.html">Galería</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="diseno.html">Diseño</a>
+                    <a class="nav-link" href="../diseno/diseno.html">Diseño</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#testimonials">Testimonios</a>
@@ -44,55 +44,36 @@
     <!-- Encabezado -->
     <header>
         <div class="container nav2">
-            <h2>Diseña tu espacio</h2>
-            <p>Escoge los productos que más te gusten y diseñaremos tu espacio</p>
+            <h2>Espacios destacados</h2>
+            <p>Inspírate en estos espacios y diseña el tuyo propio</p>
         </div>
     </header>
     
     <!--Contenido-->
  
-    <div class="container-navLat">
-        <div class="nav-lat">
-            <nav>
-                <ul>
-                    <li><a href="secundarias/sillas.html">Sillas</a></li>
-                    <li><a href="secundarias/mesas.html">Mesas</a></li>
-                    <li><a href="secundarias/espejos.html">Espejos</a></li>
-                </ul>
-            </nav>
+    <nav class="navbar navbar-light bg-light">
+        <button class="navbar-toggler w-100" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mx-auto text-center" id="navbarNav"> <!-- Agrega las clases mx-auto y text-center aquí -->
+            <a id="a1" class="dropdown-item" href="#">Vintage</a>
+                        <a id="a2" class="dropdown-item" href="#">Moderno</a>
+                        <a id="a3" class="dropdown-item" href="#">Minimalista</a>
+                        <a id="a4" class="dropdown-item" href="#">Estilo Americano</a>
+                        <a id="a5" class="dropdown-item borrar" href="#">--Borrar Filtros--</a>
+            <ul class="navbar-nav">
+        
+            </ul>
         </div>
+    </nav>
 
-        <div class="productos">
-            <div>
-                <img src="../img/espe1.PNG" alt="espejo 1">
-            </div>
-            <div>
-                <img src="../img/espe2.PNG" alt="espejo 2">
-            </div>
-            <div>
-                <img src="../img/mesa2.PNG" alt="mesa 2">
-            </div>
-            <div>
-                <img src="../img/mesa3.PNG" alt="mesa 3">
-            </div>
-            <div>
-                <img src="../img/mesa4.PNG" alt="mesa 4">
-            </div>
-            <div>
-                <img src="../img/silla3.PNG" alt="silla 3">
-            </div>
-            <div>
-                <img src="../img/silla1.PNG" alt="silla 1">
-            </div>
-            <div>
-                <img src="../img/mesa1.PNG" alt="mesa 1">
-            </div>
-            <div>
-                <img src="../img/silla2.PNG" alt="silla 2">
+    <section id="gallery">
+        <div class="container">
+            <div class="row">
+                <!-- Añadir imágenes de diseños de interiores aquí -->
             </div>
         </div>
-    </div>
-    
+    </section>
 
     <!-- Pie de página -->
     <footer>
@@ -101,12 +82,13 @@
         </div>
     </footer>
 
-
+    
     <!-- Scripts de Bootstrap y dependencias -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="../js/script2.js"></script>
+<script src="../js/script.js"></script>
 
 <div class="lightbox" id="lightbox">
     <img src="" id="lightboxImg">
