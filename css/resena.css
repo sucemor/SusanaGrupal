@@ -1,14 +1,29 @@
-.prueba{
+.prueba {
     display: flex;
     margin: 100px 0px;
+    flex-direction: column;
+    /* Cambia la dirección de la disposición a columna */
+    align-items: center;
+    /* Centra los elementos horizontalmente */
+    text-align: center;
+    /* Centra el texto horizontalmente */
 }
 
-.prueba__img{
+.prueba__img {
     width: 15%;
     margin-right: 15%;
+    margin-bottom: 20px;
+    /* Espacio entre la imagen y el nombre */
 }
 
-.prueba__img--p{
+.nombre {
+    font-weight: bold;
+    /* Opcional: haz que el nombre sea negrita */
+    margin-bottom: 20px;
+    /* Espacio entre el nombre y el párrafo de texto */
+}
+
+.prueba__img--p {
     height: 170px;
     margin-bottom: 50px;
 }
