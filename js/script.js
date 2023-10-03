@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
+
+
+
+    
+    
     const galleryRow = document.querySelector('#gallery .row');
     const lightbox = document.getElementById('lightbox');
     const lightboxImg = document.getElementById('lightboxImg');
@@ -60,12 +65,12 @@ document.addEventListener('DOMContentLoaded', function() {
         galleryRow.appendChild(col);
     }
 
-    // Evento para ocultar el lightbox al hacer clic fuera de la imagen ampliada
-    lightbox.addEventListener('click', function(event) {
-        if (event.target === lightbox) {
+    // Evento para ocultar el lightbox al pulsar de la imagen ampliada
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape' && lightbox.style.display === 'block') {
             lightbox.style.display = 'none';
         }
-    });
+    }); 
 });
 
 function cambiarFiltro(event) {
@@ -120,4 +125,5 @@ function borrarFiltros() {
     
     // Actualiza el filtro actual a "todos"
     filtroActual = "todos";
+    
 }
