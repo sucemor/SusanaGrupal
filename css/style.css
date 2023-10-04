@@ -133,3 +133,54 @@ a:hover {
     padding: 10px;
     font-weight: bold;
 }
+/*CONTACTO*/
+/* Hay que modificar los px por otra unidad de medida para que sea responsive */
+
+
+
+.fondo_contacto{
+    background-image: url(../img/fondoContacto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1080px;
+}
+
+.contacto{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    background-color: white;
+    padding: 50px;
+}
+/*FIN DE CONTACTO*/
+
+/* RESEÑAS */
+.prueba{
+    display: flex;
+    margin: 100px 0px;
+}
+
+.prueba__img{
+    width: 15%;
+    margin-right: 15%;
+}
+
+.prueba__img--p{
+    height: 170px;
+    margin-bottom: 50px;
+}
+/* FIN DE RESEÑAS */
+
+/* GALERIA */
+.navbar-nav .dropdown-menu {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.dropdown-item {
+    display: inline-block !important;
+    margin-right: 10px; /* Puedes ajustar este margen según tus necesidades */
+}
+
+/* FIN DE GALERIA */
